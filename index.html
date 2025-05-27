@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html>
+
+<div class="snowflakes" aria-hidden="true">
+  <div class="snowflake">❅</div>
+  <div class="snowflake">❆</div>
+  <div class="snowflake">❅</div>
+  <div class="snowflake">❆</div>
+  <div class="snowflake">❅</div>
+  <div class="snowflake">❆</div>
+  <div class="snowflake">❅</div>
+  <div class="snowflake">❆</div>
+  <div class="snowflake">❅</div>
+  <div class="snowflake">❆</div>
+  <div class="snowflake">❅</div>
+  <div class="snowflake">❆</div>
+</div>
+
+
+<style>
+  @-webkit-keyframes snowflakes-fall {
+    0% {top:-10%}
+    100% {top:100%}
+  }
+  @-webkit-keyframes snowflakes-shake {
+    0%,100% {-webkit-transform:translateX(0);transform:translateX(0)}
+    50% {-webkit-transform:translateX(80px);transform:translateX(80px)}
+  }
+  @keyframes  snowflakes-fall {
+    0% {top:-10%}
+    100% {top:100%}
+  }
+  @keyframes  snowflakes-shake {
+    0%,100%{ transform:translateX(0)}
+    50% {transform:translateX(80px)}
+  }
+  .snowflake {
+    color: #fff;
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+    text-shadow: 0 0 5px #000;
+    position:fixed;
+    top:-10%;
+    z-index:9999;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    cursor:default;
+    -webkit-animation-name:snowflakes-fall,snowflakes-shake;
+    -webkit-animation-duration:10s,3s;
+    -webkit-animation-timing-function:linear,ease-in-out;
+    -webkit-animation-iteration-count:infinite,infinite;
+    -webkit-animation-play-state:running,running;
+    animation-name:snowflakes-fall,snowflakes-shake;
+    animation-duration:10s,3s;
+    animation-timing-function:linear,ease-in-out;
+    animation-iteration-count:infinite,infinite;
+    animation-play-state:running,running;
+  }
+  .snowflake:nth-of-type(0){
+    left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s
+  }
+  .snowflake:nth-of-type(1){
+    left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s
+  }
+  .snowflake:nth-of-type(2){
+    left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s
+  }
+  .snowflake:nth-of-type(3){
+    left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s
+  }
+  .snowflake:nth-of-type(4){
+    left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s
+  }
+  .snowflake:nth-of-type(5){
+    left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s
+  }
+  .snowflake:nth-of-type(6){
+    left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s
+  }
+  .snowflake:nth-of-type(7){
+    left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s
+  }
+  .snowflake:nth-of-type(8){
+    left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s
+  }
+  .snowflake:nth-of-type(9){
+    left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s
+  }
+  .snowflake:nth-of-type(10){
+    left:25%;-webkit-animation-delay:2s,0s;animation-delay:2s,0s
+  }
+  .snowflake:nth-of-type(11){
+    left:65%;-webkit-animation-delay:4s,2.5s;animation-delay:4s,2.5s
+  }
+</style>
+<head>
+    <link rel="stylesheet" href="/theme/default/assets/components.chunk.css?v=BinBoard 1.75">
+    <link rel="stylesheet" href="/theme/default/assets/umi.css?v=BinBoard 1.75">
+    <link rel="stylesheet" href="/theme/default/assets/zicboard.css?v=BinBoard 1.75">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+    
+       
+    
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+        <meta name="theme-color" content="#0665d0">
+ <meta property="og:title" content="⚡ TÚ TRAI BAO UY TÍN-CHẤT LƯỢNG-THƯƠNG HIỆU TỐT" />
+  <meta property="og:description" content="CÁC PHÚ BÀ CÓ NHU CẦU LIÊN HỆ EM TÚ TRAI BAO." />
+    <title>⚡TÚ TRAI BAO⚡️</title>
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,400i,600,700"> 
+    <script>
+        window.domainTitle = "\u26a14G Qu\u1ed1c T\u1ebf\u26a1\ufe0f";
+    </script>
+    <script>window.routerBase = "/";</script>
+    <script>
+        window.settings = {
+            title: '⚡TÚ TRAI BAO⚡️',
+            
+            assets_path: '/theme/default/assets',
+            theme: {
+                sidebar: 'light',
+                header: 'light',
+                color: 'default',
+            },
+            version: 'BinBoard 1.75',
+            background_url: 'https://symbols.vn/wp-content/uploads/2022/01/Hinh-nen-Doraemon-cho-may-tinh-Tet-dep.jpg',
+            description: '⚡TÚ TRAI BẢO ĐẢM BẢO: BẢO MẬT MỌI THÔNG TIN CỦA PHÚ BÀ⚡️',
+            i18n: [
+                'zh-CN',
+                'en-US',
+                'ja-JP',
+                'vi-VN',
+                'ko-KR',
+                'zh-TW',
+                'fa-IR'
+            ],
+            logo: 'https://img.upanh.tv/2025/01/05/z6197724921623_19dc37baab3b8c7a18eed60c945adda9.jpg'
+        }
+    </script>
+    <script src="/theme/default/assets/i18n/zh-CN.js?v=BinBoard 1.75"></script>
+    <script src="/theme/default/assets/i18n/zh-TW.js?v=BinBoard 1.75"></script>
+    <script src="/theme/default/assets/i18n/en-US.js?v=BinBoard 1.75"></script>
+    <script src="/theme/default/assets/i18n/ja-JP.js?v=BinBoard 1.75"></script>
+    <script src="/theme/default/assets/i18n/vi-VN.js?v=BinBoard 1.75"></script>
+    <script src="/theme/default/assets/i18n/ko-KR.js?v=BinBoard 1.75"></script>
+    <script src="/theme/default/assets/i18n/fa-IR.js?v=BinBoard 1.75"></script>
+</head>
+
+<body>
+<div id="root"></div>
+<head>
+  <title> ⚡️TÚ TRAI BAO⚡️ | TÚ TRAI BAO</title>
+  <meta name="description" content="TÚ - CAM KẾT SẼ PHỤC VỤ TỐT NHẤT">
+  <meta name="keywords" content="TÚ, DỊCH VỤ TỐT-LÀM ĐÚNG CÁC NHU CẦU CỦA CÁC PHÚ BÀ">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://4gquocte.com">
+  <link rel="icon" href="https://img.upanh.tv/2025/01/17/4G-Sieu-Toc.Click.png" type="image/png">
+  <link rel="shortcut icon" href="https://img.upanh.tv/2025/01/17/4G-Sieu-Toc.Click.png" type="image/png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="⚡️TÚ DỊCH VỤ TRAI BAO⚡️ | Dịch Vụ THỔI KÈN CHO CÁC PHÚ BÀ CÓ NHU CẦU">
+  <meta property="og:description" content="4gquocte - Website cung cấp NHU CẦU THỎA MÃN CHO PHÚ BÀ">
+  <meta property="og:image" content="https://img.upanh.tv/2025/01/17/4G-Sieu-Toc.Click.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:url" content="https://4gquocte.com">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="TÚ TRAI BAO">
+  <meta property="og:locale" content="vi_VN">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="⚡️TÚ KHÔNG CHIM⚡️ | DỊCH VỤ TRAI BAO CỦA TÚ KHÔNG CHIM">
+  <meta name="twitter:description" content="Website TÚ TRAI BAO.SEX">
+  <meta name="twitter:image" content="https://img.upanh.tv/2025/01/17/4G-Sieu-Toc.Click.png">
+  <meta name="twitter:image:alt" content="Logo của 4G Quốc Tế">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "4G Quốc Tế",
+    "url": "https://4gquocte.com",
+    "logo": "https://img.upanh.tv/2025/01/17/4G-Sieu-Toc.Click.png",
+    "description": "Website cung cấp dịch vụ 4G, 5G và 4G VPN uy tín, giá rẻ hàng đầu tại Việt Nam chỉ từ 10k/tháng. Tốc độ cao, hỗ trợ thiết kế website kinh doanh và bảo mật chống DDoS vượt trội.",
+    "sameAs": [
+      "https://www.facebook.com/4gquocte",
+      "https://twitter.com/4gquocte"
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+8481301808",
+      "contactType": "customer service",
+      "areaServed": "VN",
+      "availableLanguage": "Vietnamese"
+    }
+  }
+  </script>
+</head>
+<script>(function(){var js = "window['__CF$cv$params']={r:'79be22384cd810a6',m:'Vl5oOFpdGN5lphdo6UFpD8fYRR_UUA3tEgmAyMWLri0-1676800598-0-AZBvHlEMMwkvyz6iZeew8FfwwDh1vb3cf44xPGNLNb3qhupDq69xup32yzG81XtnX1vVr7Y57FYdLyttsYNdWbNi8OtTmNfdQL9H+/Xi0SWh6qylLs5TaG63YJgjX6zvzA==',s:[0xd1b4c00718,0x5e077d35b9],u:'/cdn-cgi/challenge-platform/h/g'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/h/g/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script><script>(function(){if (!document.body) return;var js = "window['__CF$cv$params']={r:'8858c9f7bd3c9d15',t:'MTcxNjAwMzI0MC4yMjMwMDA='};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js',document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script><script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'923b04eb29e3d437',t:'MTc0MjUzNDYyNy4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+
+
+<script type='text/javascript'>
+checkCtrl=false $(&#39;*&#39;).keydown(function(e){
+if(e.keyCode==&#39;17&#39;){ checkCtrl=false  } }).keyup(function(ev){
+if(ev.keyCode==&#39;17&#39;){ checkCtrl=false } }).keydown(function(event){
+if(checkCtrl){
+if(event.keyCode==&#39;85&#39;){ return false; } } })
+</script>
+
+<style>
+    .tbpopup .tboverlay {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.3);
+        z-index: 1;
+        display: none;
+    }
+    
+    .tbpopup .tbcontent {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0);
+        background: rgba(255, 255, 255, 0.281);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(20, 20, 20, 0.1);
+backdrop-filter: blur(9px);
+-webkit-backdrop-filter: blur(9px);
+        max-width: 500px;
+        z-index: 2;
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box;
+        font-family: "Open Sans", sans-serif;
+        border-radius: 20px;
+        display: block;
+        position: fixed;
+        box-shadow: 0px 0px10px #80;
+    }
+    
+    @media (max-width: 700px) {
+        .tbpopup .tbcontent {
+            width: 90%;
+        }
+    }
+    
+    .tbpopup.active .tboverlay {
+        display: block;
+    }
+    
+    .tbpopup.active .tbcontent {
+        transition: all 300ms ease-in-out;
+        transform: translate(-50%, -50%) scale(1);
+    }
+    
+    .tbbuttom {
+        background: #00cc00;
+        color: #fff
+    }
+</style>
+<style >
+    .ht4gvpn
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    225deg,
+        #ff0000 0%,
+        #ff7b00 29%,
+        #00ff2a 67%,
+        #00aeff 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 50px;
+}
+
+@keyframes                                textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+  </style>
+  </style>
+<span data-v-04e2347d=""><style>
+                .glass-initial {
+                    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+                }
+                .glass {
+                    /* From https://css.glass */
+background: rgba(142, 237, 255, 0.12);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(10.2px);
+-webkit-backdrop-filter: blur(10.2px);
+                }
+                .glass:hover {
+                    /* From https://css.glass */
+background: rgba(142, 237, 255, 0.5);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(10.2px);
+-webkit-backdrop-filter: blur(10.2px);
+                }
+                .glass1 {
+                    /* From https://css.glass */
+background: rgba(142, 74, 40, 0.12);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(10.2px);
+-webkit-backdrop-filter: blur(10.2px);
+                }
+                .glass1:hover {
+                    /* From https://css.glass */
+background: rgba(142, 74, 40, 0.5);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(10.2px);
+-webkit-backdrop-filter: blur(10.2px);
+                }
+</style></span>
+            
+            
+<script type="4c20d7ad7f366644cf0abe8f-text/javascript">(function(){var js = "window['__CF$cv$params']={r:'773ab929abfc211e',m:'373KDVDmHXnbihzUB7AJJuv3lt4MKzm4FPMNBbfEYvY-1670053951-0-AVY+jQ3Oxd8m010zQRIEdJrImp3LysvbMOjQf9BFnz1Odwut5/Rjiw6CEjYfJRPLNqwVj6V59pBaowbAnmaWr4kOmhl5WE9xiLDI6/WkfImthMve5O2gIjyqkq4xF3tk/A==',s:[0x02a9109992,0x82354c3efc],u:'/cdn-cgi/challenge-platform/h/g'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/h/g/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script><script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="4c20d7ad7f366644cf0abe8f-|49" defer=""></script></body>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="4c20d7ad7f366644cf0abe8f-|49"></script><body onload="thongbaopopup()">
+<style>
+    .tbpopup .tboverlay {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.7);
+        z-index: 1;
+        display: none;
+    }
+    
+    .tbpopup .tbcontent {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0);
+        background: #fff;
+        max-width: 700px;
+        z-index: 2;
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box;
+        font-family: "Open Sans", sans-serif;
+        border-radius: 20px;
+        display: block;
+        position: fixed;
+        box-shadow: 0px 0px 10px #111;
+    }
+    
+    @media (max-width: 700px) {
+        .tbpopup .tbcontent {
+            width: 90%;
+        }
+    }
+    
+    .tbpopup .tbclose-btn {
+        cursor: pointer;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        width: 35px;
+        height: 35px;
+        color: #ff4444;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 35px;
+        text-align: center;
+        border-radius: 50%;
+    }
+    
+    .tbpopup.active .tboverlay {
+        display: block;
+    }
+    
+    .tbpopup.active .tbcontent {
+        transition: all 300ms ease-in-out;
+        transform: translate(-50%, -50%) scale(1);
+    }
+    
+    .tbbuttom {
+        background: #00cc00;
+        color: #fff
+    }
+    .a{
+        text-align: center;
+    }
+</style>
+<div class="tbpopup" id="tbpopup-1">
+<div class="tboverlay"></div>
+<div class="tbcontent" style="max-height: 100vh;overflow-x: hidden; padding-bottom: 20px;">
+<div class="tbclose-btn" onclick="dong24h()">&times;</div>
+<div style="font-size:30px;font-weight:bold">⚡Thông Báo⚡</div>
+<center>
+
+<div class="py-2"><center><font style="color:#0510e3"><b>
+Website hỗ trợ sim <font color = red>EM TÚ SẼ CHUẨN BỊ BCS, THUỐC TRÁNH THAI NẾU CÁC PHÚ BÀ CẦN</font> </b><br><br> </font>
+<i class=></i>Hãy Đọc Phần <a href="/#/knowledge"><b>HƯỚNG DẪN</b></a> Để Hiểu Rõ Cách Sử Dụng
+<br>
+<i class=></i> 
+<br>
+<font style="color:#0033FF"><b>
+❗Nhận setup aapanel pro không crack<br> </font> 
+<br>
+<font style="color:#FF0077"><b>
+❗Nhận tạo Web-Pr web, chống ddos web và tạo web con  <br> </font> 
+<br>
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Chữ Màu Cầu Vồng</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Liên kết tới file CSS bên ngoài nếu cần -->
+    <style>
+        /* --- CSS Chỉ Sử Dụng --- */
+        .rainbow-text {
+            font-size: 17px;
+            font-weight: bold;
+            background: linear-gradient(90deg, 
+                #FF0000, #FF4000, #FF8000, #FFC000, #FFFF00,
+                #C0FF00, #80FF00, #40FF00, #00FF00, #00FF40,
+                #00FF80, #00FFC0, #00FFFF, #00C0FF, #0080FF,
+                #0040FF, #0000FF, #4000FF, #8000FF, #C000FF,
+                #FF00FF, #FF00C0, #FF0080, #FF0040);
+            background-size: 200% 100%; /* Kích thước nền lớn hơn để tạo hiệu ứng chuyển động */
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: rainbow 3s linear infinite; /* Hiệu ứng chạy quanh chữ */
+        }
+
+        @keyframes rainbow {
+            0% { background-position: 100% 50%; } /* Bắt đầu từ bên phải */
+            100% { background-position: 0% 50%; } /* Kết thúc ở bên trái */
+        }
+
+        /* Responsive Adjustments */
+        @media (max-width: 576px) {
+            .rainbow-text {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="rainbow-text">
+        ❗Chúng Tớ Rất Hân Hạnh Được Phục Vụ Các Cậu ❤️
+    </div>
+</body>
+</html> 
+<br>
+<font style="color:#FF0000"><b>
+⚡️Hiện Tại nền mặc định trên web đang là tiktok.
+Mã giảm giá 30% ở phần mua gói </b><br> </font> 
+<br>
+
+
+<div class="">
+<center>
+<button type="button" class="btn btn-danger btn-sm btn-primary btn-rounded px-3" onclick="dong24h()">Tắt trong 24h</button><br>
+<button type="button" class="mt-2 btn btn-primary" onclick="window.location.href='/#/knowledge'">Hướng Dẫn</button>
+<button type="button" class="mt-2 btn btn-primary" onclick="window.location.href='https://zalo.me/g/apibgy791'">Group Zalo</button>
+<button type="button" class="mt-2 btn btn-primary" 
+onclick="window.location.href='https://youtube.com/@anhemvlogs9971?si=FTJ8BmAJGtCgSFYN'">Kênh Youtube Hướng Dẫn</button>
+<button type="button" class="mt-2 btn btn-primary" 
+onclick="window.location.href='https://zalo.me/g/uwmhgx021'">Group Telegram</button>
+</center>
+</div>
+</center>
+</div>
+</div>
+<script> 
+    function thongbaopopup() {
+        document.getElementById("tbpopup-1").classList.toggle("active");
+
+        const d = new Date();
+        let dateClose = sessionStorage.getItem("dateClose");
+        let MonthClose = sessionStorage.getItem("MonthClose");
+        if(d.getDate()==dateClose && d.getMonth()==MonthClose){
+        document.getElementById("tbpopup-1").classList.toggle("active");
+        }
+        
+    }
+    function dong24h() {
+        const d = new Date();
+        sessionStorage.setItem("dateClose", d.getDate());
+        sessionStorage.setItem("MonthClose", d.getMonth());
+        let dateClose = sessionStorage.getItem("dateClose");
+        let MonthClose = sessionStorage.getItem("MonthClose");
+     // alert(dateClose+'tháng: '+MonthClose);
+        document.getElementById("tbpopup-1").classList.toggle("active");
+        
+    }
+</script>
+
+
+<script src="/theme/default/assets/vendors.async.js?v=BinBoard 1.75"></script>
+<script src="/theme/default/assets/zicboard.js?v=BinBoard 1.75"></script>
+<script src="/theme/default/assets/components.async.js?v=BinBoard 1.75"></script>
+<script src="/theme/default/assets/umi.js?v=BinBoard 1.75"></script>
+
+    <script src="https://apple.xn--ss-8ja.vn/static/js/tabler.min.js"></script>
+    <script src="https://apple.xn--ss-8ja.vn/static/js/sweetalert2.all.min.js"></script>
+    
+    <script src="https://apple.xn--ss-8ja.vn/static/js/clipboard.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" rel="stylesheet">
+
+
+
